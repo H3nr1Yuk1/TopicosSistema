@@ -1,0 +1,15 @@
+### Requisição para a raiz
+GET http://localhost:3000
+
+### Requisição passando parâmetros na URL
+GET http://localhost:3000/eletronico/celular
+
+### Requisição passando informação pelo corpo da requisição
+POST http://localhost:3000
+Content-Type: application/json
+
+{
+    "Id" : 1,
+    "Nome" : "Alimento",
+    "Descrição" : "Comida"
+}
