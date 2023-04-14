@@ -2,14 +2,13 @@
 GET http://localhost:3000
 
 ### Requisição passando parâmetros na URL
-GET http://localhost:3000/eletronico/celular
+GET http://localhost:3000/produto/valor
 
 ### Requisição passando informação pelo corpo da requisição
 POST http://localhost:3000
 Content-Type: application/json
 
 {
-    "Id" : 1,
-    "Nome" : "Alimento",
-    "Descrição" : "Comida"
+    "nome" : "Bananinha",
+    "preco" : 10.55
 }
