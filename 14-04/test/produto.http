@@ -12,3 +12,14 @@ Content-Type: application/json
     "nome" : "Bananinha",
     "preco" : 10.55
 }
+
+### Apagando elemento dos registros
+GET http://localhost:3000/Bananinha/apagar
+
+### Atualizando elemento dos registros (Preço)
+GET http://localhost:3000/Bananinha/atualizarP
+Content-Type: application/json
+
+{
+    "novoPreco" : 25
+}
