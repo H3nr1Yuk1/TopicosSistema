@@ -4,6 +4,6 @@ function Soma(){
     );
 }
 
-//Criar duas caixas de texto, criar um botão, somar os dois valores e exibir em alert e depois no HTML
+/*Criar duas caixas de texto, criar um botão, somar os dois valores e exibir em alert e depois no HTML*/
 
 export default Soma;

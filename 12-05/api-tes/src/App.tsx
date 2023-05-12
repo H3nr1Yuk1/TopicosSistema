@@ -1,4 +1,4 @@
-import Soma from "./components/Soma";
+import Soma from './components/Soma';
 
 function App() {
   return (
