@@ -8,5 +8,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <App />
+    {/* Componente principal da aplicação */}
+    {/* Todo arquivo que é .tsx é um componente */}
   </React.StrictMode>
 );
