@@ -37,4 +37,18 @@ export class ProdutoController {
       .status(201)
       .json({ message: "Produto cadastrado!", dados: produtoCadatrado });
   }
+
+  async remover(request: Request, response: Response): Promise<Response> {
+    try{
+      const produto = await prisma.produto.delete({
+        where: {
+          id: Number.parseInt(request.params.id),
+        },
+      });
+
+      return response.status(200).json({ data: produto });
+    } catch (erro) {
+      return response.status(404).json({ message: "Produto não encontrado!" });
+    }
+  }
 }

@@ -12,3 +12,6 @@ Content-Type: application/json
     "nome" : "Bolacha",
     "preco" : 10
 }
+
+### Requisição passando parametros na URL para deletar
+DELETE http://localhost:3001/1
