@@ -5,7 +5,6 @@ import { useState } from 'react';
 import { Produto } from "../../models/produto.model";
 
 function DetalharProdutos(){
-    debugger;
     const { id } = useParams();
     const [produto, setProduto] = useState<Produto>();
 

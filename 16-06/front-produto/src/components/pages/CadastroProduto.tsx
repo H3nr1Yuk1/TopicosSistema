@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useState } from "react";
 import { Produto } from "../../models/produto.model";
+import Button from "@mui/material/Button";
 
 function CadastroProduto() {
   const [nome, setNome] = useState("");
@@ -44,7 +45,7 @@ function CadastroProduto() {
         />
       </div>
       <div>
-        <button onClick={enviar}>Cadastrar</button>
+        <Button variant="contained" onClick={enviar}>Cadastrar</Button>
       </div>
     </div>
   );
